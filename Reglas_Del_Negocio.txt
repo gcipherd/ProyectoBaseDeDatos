@@ -1,0 +1,32 @@
+This page defines the Business Rules that the Data Model must comply with to support an operational Database.
+
+A. What are the Requirements ?
+A.1 A Company is being formed to buld an e-Commerce business selling gourmet snacks over the Internet.  
+They want to build up a customer database so that they can provide special 
+advertising e-mails with special offers.  
+
+A.2 Customer Orders will be tracked.  
+Customers' preferred method of payment also needs to be stored, so that it 
+doesn't need to be reentered every time an order is placed.  
+
+A.3 An on-line catalog of product offerings will be provided.  
+A.4 Products  are grouped into three different categories, so that they can be offered by 
+product type, based on special holiday, or based on a special event.  
+A.5 A Customer can order any number of items in a single order, and can also select 
+the method of shipment for the goods and appropriate charges will be added.  
+A.6 When the order is complete, an invoice is generated which will be e-mailed to the customer.  
+After payment is received, the order data is then archived for future analysis.  
+
+B. What are the Things of Interest ?
+B.1 Customers
+B.2 Orders
+B.3 Products
+
+C. How are they Related ?
+C.1 Customers place Orders.
+C.2 An Order can be associated with one or many Order Items.
+C.2 Order Items can be shipped separately.
+
+D. What else do we know about them ?
+D.1 An Order can be Open, Delivered, or have different Items Shipped or Cancelled.
+
